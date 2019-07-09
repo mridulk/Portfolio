@@ -1,0 +1,11 @@
+.imageClass{
+    /* box-shadow: 2px 2px 8px rgba(255, 255, 255, 2.0); */
+    border-style: solid;
+    border-color:  #198a19;
+    border-width: 5px;
+    
+}
+.nameStyle{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
