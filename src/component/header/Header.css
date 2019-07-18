@@ -1,12 +1,9 @@
 nav{
-    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.9);
+    box-shadow: 2px 2px 5px rgb(41, 36, 42,1.9);
 }
-.bgcolor{
-    background-color:  #0d0d0d;
-}
+
 .link1 {
     transition: 0.2s ease;
-    background: #0d0d0d;
     color: #ffffff;
     font-size: 20px;
     text-decoration: none;
