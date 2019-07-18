@@ -1,0 +1,53 @@
+.descriptionClass{
+    background-color:rgb(0,0,0,0.6);
+    /* opacity: 0.5; */
+    border-radius: 10px;
+    /* border-left-color: #6B605C; */
+    /* border-left-color: black; */
+    border-style: solid;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    height: 200px;
+    /* border-right-color: #6B605C; */
+    border-right-color: black;
+    border-top-color: black;
+    border-bottom-color: black;
+    box-shadow: 5px 5px 5px rgb(41, 36, 42,1.9);
+    color: white;
+}
+.imgClass{
+    width: 100%;
+    height: 150px;
+}
+
+.MobileimgClass{
+    width: 50%;
+    height:100px;
+}
+.watchDemoClass{
+    width: 100%;
+    height: 45px;
+    padding-top: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(41, 36, 42,1.9);
+}
+.mobileDescriptionClass{
+    background-color:rgb(0,0,0,0.6);
+    /* opacity: 0.5; */
+    border-radius: 10px;
+    /* border-left-color: #6B605C; */
+    /* border-left-color: black; */
+    border-style: solid;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    /* border-right-color: #6B605C; */
+    border-right-color: black;
+    border-left-color: black;
+    border-bottom-color: black;
+    box-shadow: 5px 5px 5px rgb(41, 36, 42,1.9);
+    color: white;
+}
