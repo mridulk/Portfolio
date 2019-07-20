@@ -8,20 +8,24 @@ class About extends Component {
                 <div className="col-lg-11 col-10 pt-5">
                     <h1>About</h1>
                     <div className="container  containerAbout mt-5 mb-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, aut quasi. Inventore tenetur ipsum reprehenderit, dolor cum suscipit. Sit quisquam officia,
-                         enim quasi omnis iusto quibusdam totam doloribus vitae pariatur.
+                       <div className="col-12">
+                           <h3>Education <i class='fas fa-book-open'></i></h3>
+                       </div>
+                    </div>
+                    <div className="  containerAbout mt-5 mb-5">
+                    <div className="col-12">
+                           <h3>Skills <i class='fas fa-laptop-code'></i></h3>
+                       </div>
                     </div>
                     <div className="container  containerAbout mt-5 mb-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nihil animi veniam debitis illum officiis omnis, dolor ipsa minima autem.
-                         Vero a cupiditate cumque ipsum quasi debitis, explicabo exercitationem illum!
+                    <div className="col-12">
+                           <h3>Experience  <i class='fas fa-user-graduate'></i></h3>
+                       </div>
                     </div>
                     <div className="container  containerAbout mt-5 mb-5">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit facere quos, labore deleniti reiciendis facilis, quibusdam nam quas autem,
-                         neque officiis doloremque blanditiis? Explicabo tempore blanditiis nulla minima placeat quis?
-                    </div>
-                    <div className="container  containerAbout mt-5 mb-5">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur quos quo eligendi minima tenetur dolore possimus, 
-                        dignissimos illo numquam maiores provident quis architecto similique quia accusantium ut libero vero. Voluptatum!
+                    <div className="col-12">
+                           <h3>Achievements  <i class='fas fa-award'></i></h3>
+                       </div>
                     </div>
                     
                 </div>

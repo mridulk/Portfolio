@@ -8,7 +8,7 @@
     border-right-width: 1px;
     border-top-width: 1px;
     border-bottom-width: 1px;
-    height: 200px;
+    height:fit-content;
     /* border-right-color: #6B605C; */
     border-right-color: black;
     border-top-color: black;
@@ -16,6 +16,10 @@
     box-shadow: 5px 5px 5px rgb(41, 36, 42,1.9);
     color: white;
 }
+:-moz-any-link:focus {
+    outline: none;
+  }
+
 .imgClass{
     width: 100%;
     height: 150px;
@@ -25,14 +29,19 @@
     width: 50%;
     height:100px;
 }
-.watchDemoClass{
+.demoClass{
     width: 100%;
     height: 45px;
     padding-top: 5px;
     margin-top: 5px;
     border-radius: 10px;
-    background-color: white;
+    color: white;
+    background-color:rgb(0,0,0,0.6);
     box-shadow: 5px 5px 5px rgb(41, 36, 42,1.9);
+}
+.btn:hover {
+    color: white;
+    text-decoration: none;
 }
 .mobileDescriptionClass{
     background-color:rgb(0,0,0,0.6);
@@ -49,5 +58,17 @@
     border-left-color: black;
     border-bottom-color: black;
     box-shadow: 5px 5px 5px rgb(41, 36, 42,1.9);
+    color: white;
+}
+.linkClass{
+   float: left;
+
+}
+.linkClassMobile a :hover{
+   color: white;
+}
+.demoClassMobile button{
+    border-radius: 10px;
+    background-color: rgb(0,0,0,0.6);
     color: white;
 }
