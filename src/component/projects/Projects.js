@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './Project.css'
 import image from './GithubApi.png'
-import video from './video1.mp4'
 class Projects extends Component {
     constructor(props) {
         super(props)
