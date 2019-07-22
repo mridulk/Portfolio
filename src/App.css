@@ -29,6 +29,15 @@ body{
   height: auto;
   background-attachment: fixed;
 }
+/* body{
+  background: url("./image120.jpg");
+  background-position:top;
+  background-size: 200%;
+  background-position-x: 65%;
+  width: 100%;
+  height: auto;
+
+} */
 a:hover {
  cursor: pointer;
 }

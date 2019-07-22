@@ -5,7 +5,7 @@ class Header extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar navbar-expand-md navbar-dark bgcolor sticky-top">
+                <nav className="navbar navbar-expand-md navbar-dark bgcolor sticky-top" >
                     <button className="navbar-toggler" data-toggle="collapse" data-target="#target_name">
                         <span className="navbar-toggler-icon"></span>
                     </button>

@@ -8,7 +8,7 @@
     border-right-width: 1px;
     border-top-width: 1px;
     border-bottom-width: 1px;
-    height: 50vh;
+    height: 55vh;
     /* border-right-color: #6B605C; */
     border-right-color: black;
     border-top-color: black;
@@ -16,6 +16,7 @@
     box-shadow: 5px 5px 5px rgb(41, 36, 42,1.9);
     color: white;
 }
+
 /* .outerDiv{
     background: url("./image120.jpg");
     background-position:top;
