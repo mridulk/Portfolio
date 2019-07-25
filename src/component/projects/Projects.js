@@ -18,6 +18,9 @@ class Projects extends Component {
         console.log(this.state.height, this.state.width)
         window.addEventListener("resize", this.updateSize)
     }
+    componentWillUnmount(){
+        window.removeEventListener('resize',this.updateSize);
+    }
     updateSize() {
         this.setState({
             height: window.innerHeight,
@@ -27,7 +30,7 @@ class Projects extends Component {
     renderWebsite() {
         return (
             <div>
-                <div className="row pt-5 pb-5">
+                <div className="row pt-5 pb-5 ">
                     <div className="col-lg-4 col-md-4 pb-2 col-4">
                         <div className="col-12 pl-2 pr-2">
                             <img src={image} className="img-fluid rounded-circle imgClass" />
@@ -167,7 +170,7 @@ class Projects extends Component {
             <div className="text-center">
 
                 <div className="col-lg-11 col-10 pt-5">
-                    <h1>Projects</h1>
+                    <h1 style={{color:'white'}}>Projects</h1>
                     {/* <h1 className="bg-white"> {this.state.width}</h1> */}
                     {this.state.width < 887 ? this.renderMobile() : this.renderWebsite()}
                 </div>

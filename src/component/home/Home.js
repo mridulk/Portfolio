@@ -49,7 +49,7 @@ class Home extends Component {
             <div className="text-center container">
 
                 <div className="col-lg-11 col-10 pt-5">
-                    <img className="rounded-circle imageClass" alt="100x100" width="200px" height="200px" src={image}
+                    <img className="rounded-circle imageClass" alt="100x100" width="210px" height="210px" src={image}
                         data-holder-rendered="true" />
                     <div className="col-lg-12 text-white p-4 ">
                         <p className="nameStyle">Mridul Khurana </p>

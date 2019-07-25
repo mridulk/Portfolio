@@ -22,12 +22,13 @@ position: absolute;
   font-size: 20px;
 }
 body{
-  background: url("./image120.jpg");
+  
+  background: url("./back8.jpg");
   background-position:top;
   background-size: cover;
   width: 100%;
-  height: auto;
-  background-attachment: fixed;
+  height:800px;
+  /* background-attachment: fixed; */
 }
 /* body{
   background: url("./image120.jpg");
