@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './About.css'
 import YoungEngine from './YoungEngine.png'
-import nagarro from './nagarro.jpg'
+import nagarro from './img0.jpg'
 import dsc from './dsc.png'
 class About extends Component {
 
@@ -109,8 +109,8 @@ class About extends Component {
             },
             {
                 companyName: 'Nagarro',
-                internColor: 'red',
-                companyDescription: 'Nagarro is a software development and technology consulting company that provides services to Fortune 500 companies and leading ISVs. It is part of a German group and has its largest development center in Gurgaon, in the National Capital Region of India.',
+                internColor: '#3366ff',
+                companyDescription: 'Nagarro is a software development and technology consulting company . It is part of a German group and has its largest development center in Gurgaon, in the National Capital Region of India.',
                 duration: '2 months',
                 developmentType: 'Front-End Developer',
                 companyImage: nagarro,
@@ -180,21 +180,26 @@ class About extends Component {
                                         <hr className="lineClass"></hr>
                                         <h6 className="font-weight-normal">{internship.developmentType}</h6>
                                         <hr className="lineClass"></hr>
-                                        <p className="card-text ">
+                                        {/* <p className="card-text ">
                                             <div className="row">
                                                 <div className="col-6">Duration :<br />{internship.duration}</div>
                                                 <div className="col-6 font-weight-light">Location :<br />Delhi</div>
                                             </div>
-                                        </p>
-                                        <a className="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                        </p> */}
+                                        <a className="#" class="btn btn-primary btn-sm "><i class="fa fa-plus"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div className="backside">
                                 <div className="card">
-                                    <div className="card-body text-center mt-4">
+                                    <div className="card-body text-center mt-1">
                                         <h4 className="card-title" style={{color:internship.internColor}}>{internship.companyName}</h4>
-                                        <p className="card-text">{internship.companyDescription}</p>
+                                        <p className="card-text" style={{fontSize:'15px'}}>{internship.companyDescription}
+                                        <div className="row pt-1" style={{color:internship.internColor}}>
+                                                <div className="col-6">Duration :<br />{internship.duration}</div>
+                                                <div className="col-6 font-weight-light">Location :<br />Delhi</div>
+                                            </div>
+                                        </p>
 
                                     </div>
                                 </div>
@@ -210,7 +215,7 @@ class About extends Component {
         return (
             <div className="text-center outerDiv">
 
-                <div className="col-lg-12 col-11 pt-5">
+                <div className="col-lg-11 col-11 pt-5">
                     <h1 style={{ color: 'white' }}>About</h1>
                     <div className="container  containerAbout  ml-1 mt-5 mb-5">
                         <div className="col-12">
@@ -220,7 +225,7 @@ class About extends Component {
                             <table className="table  table-striped " style={{ color: 'white' }}>
                                 <tr>
                                     <td className="font-weight-bold">2017</td>
-                                    <td className="text-left font-weight-light">V.V.D.A.V Public School, New Delhi <br />10th : 9.2 cgpa  <br />12th: 95% (PCM) </td>
+                                    <td className="text-left font-weight-light ">V.V.D.A.V Public School, New Delhi <br />10th : 9.2 cgpa  <br />12th: 95% (PCM) </td>
 
                                 </tr>
                                 <tr>
@@ -250,7 +255,7 @@ class About extends Component {
 
 
                     </div>
-                    <div className="container containerAbout ml-1 mt-5 mb-5">
+                    <div className="container containerAboutExperience ml-1 mt-5 mb-5">
                         <div className="col-12">
                             <h3>Experience  <i className='fas fa-user-graduate'></i></h3>
                         </div>
@@ -264,6 +269,7 @@ class About extends Component {
                         <div className="col-12">
                             <h3>Achievements  <i class='fas fa-award'></i></h3>
                         </div>
+
                     </div>
 
                 </div>
