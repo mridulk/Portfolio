@@ -56,6 +56,11 @@ class About extends Component {
                 color: 'pink'
             },
             {
+                skill: 'Express Js',
+                width: '85%',
+                color: 'orange'
+            },
+            {
                 skill: 'Bootstrap',
                 width: '95%',
                 color: 'red'
@@ -101,20 +106,20 @@ class About extends Component {
             {
                 companyName: 'Young Engine',
                 internColor: 'rgb(249, 133, 37)',
-                companyDescription: 'YE is a large community of enablers, globally-minded young leaders. Now companies can devote more time and focus on enhancing the quality of their product, leaving the effective marketing part to be driven by us for them.',
+                companyDescription: 'Worked on frontend (ReactJs), and added some frontend screens to the YoungEngine Portal. This application acts as interface bw companies and students',
                 duration: '2 months',
                 developmentType: 'React Developer',
                 companyImage: YoungEngine,
-                position:'Intern'
+                position: 'Intern'
             },
             {
                 companyName: 'Nagarro',
                 internColor: '#3366ff',
-                companyDescription: 'Nagarro is a software development and technology consulting company . It is part of a German group and has its largest development center in Gurgaon, in the National Capital Region of India.',
+                companyDescription: 'Worked on MERN stack,and created few application using mainly React and Node js',
                 duration: '2 months',
                 developmentType: 'Front-End Developer',
                 companyImage: nagarro,
-                position:'Intern'
+                position: 'Intern'
             },
             {
                 companyName: 'DSC-BVP',
@@ -123,7 +128,7 @@ class About extends Component {
                 duration: '2017-2020',
                 developmentType: 'Competetive Programming',
                 companyImage: dsc,
-                position:'Head'
+                position: 'Head'
             }
 
         ]
@@ -193,14 +198,21 @@ class About extends Component {
                             <div className="backside">
                                 <div className="card">
                                     <div className="card-body text-center mt-1">
-                                        <h4 className="card-title" style={{color:internship.internColor}}>{internship.companyName}</h4>
-                                        <p className="card-text" style={{fontSize:'15px'}}>{internship.companyDescription}
-                                        <div className="row pt-1" style={{color:internship.internColor}}>
-                                                <div className="col-6">Duration :<br />{internship.duration}</div>
-                                                <div className="col-6 font-weight-light">Location :<br />Delhi</div>
+                                        <h4 className="card-title" style={{ color: internship.internColor }}>{internship.companyName}</h4>
+                                        <div className="card-text" style={{ fontSize: '15px' }}>
+                                            <div className="row">
+                                                <div className=" col-12 text-center pb-3" style={{ color: internship.internColor }}>
+                                                    Project/Work Description:
+                                                </div>
+                                                {internship.companyDescription}
                                             </div>
-                                        </p>
 
+                                        </div>
+
+                                    </div>
+                                    <div className="row pb-0" style={{ color: internship.internColor }}>
+                                        <div className="col-6">Duration<br />{internship.duration}</div>
+                                        <div className="col-6 font-weight-light">Location<br />Delhi</div>
                                     </div>
                                 </div>
                             </div>
@@ -261,7 +273,7 @@ class About extends Component {
                         </div>
                         <div className="row mt-4 ml-2 mr-2 mb-4">
                             {internshipList}
-                            
+
 
                         </div>
                     </div>

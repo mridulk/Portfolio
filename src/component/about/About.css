@@ -103,12 +103,14 @@
       position: relative;
       /* -webkit-transform: rotateY(0deg);
       -ms-transform: rotateY(0deg); */
+      min-height: 300px;
       z-index: 2;
       margin-bottom: 30px;
   }
   
   .backside {
       position: absolute;
+      min-height: 300px;
       top: 0;
       left: 0;
       background: rgb(0,0,0,0.8);
@@ -125,7 +127,7 @@
   
   .frontside,
   .backside {
-     min-height: 250px !important;
+     min-height: 300px !important;
       -webkit-backface-visibility: hidden;
       -moz-backface-visibility: hidden;
       -ms-backface-visibility: hidden;
@@ -146,7 +148,7 @@
   }
   .frontside .card,
   .backside .card {
-      min-height: 250px !important;
+      min-height: 300px !important;
   }
   
   .backside .card a {

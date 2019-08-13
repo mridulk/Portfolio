@@ -7,7 +7,7 @@ position: absolute;
 } */
 .icon-bar {
   position: fixed;
-  top: 50%;
+  top: 70%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -23,7 +23,7 @@ position: absolute;
 }
 body{
   
-  background: url("./back8.jpg");
+  background: url("./imgImp.jpg");
   background-position:top;
   background-size: cover;
   width: 100%;
