@@ -23,7 +23,12 @@ class Home extends Component {
     renderMobile() {
         return (
             <div>
-                <div className="row containerObjective pl-3 pr-3 pt-4 pb-4 font-weight-light">
+                <img className="rounded-circle imageClass" alt="100x100" width="210px" height="210px" src={image}
+                    data-holder-rendered="true" />
+                <div className="col-lg-12 text-white p-4 ">
+                    <p className="nameStyle">Mridul Khurana </p>
+                </div>
+                <div className="row containerObjective pl-3 pr-3 pt-4 pb-4 font-weight-light" style={{ fontSize: "18px" }}>
                     As a fresher, I want to put to use my creative skills,
                     technologies that I am familiar with, innovative thoughts
                     that will benefit the Organization in the long run and also
@@ -35,7 +40,12 @@ class Home extends Component {
     renderWebsite() {
         return (
             <div>
-                <div className="col-12 containerObjective p-5 font-weight-light">
+                <img className="rounded-circle imageClass" alt="100x100" width="210px" height="210px" src={image}
+                    data-holder-rendered="true" />
+                <div className="col-lg-12 text-white p-4 ">
+                    <p className="nameStyle">Mridul Khurana </p>
+                </div>
+                <div className="col-12 containerObjective p-5 font-weight-light" >
                     As a fresher, I want to put to use my creative skills,
                     technologies that I am familiar with, innovative thoughts
                     that will benefit the Organization in the long run and also
@@ -49,13 +59,9 @@ class Home extends Component {
             <div className="text-center container">
 
                 <div className="col-lg-11 col-10 pt-5">
-                    <img className="rounded-circle imageClass" alt="100x100" width="210px" height="210px" src={image}
-                        data-holder-rendered="true" />
-                    <div className="col-lg-12 text-white p-4 ">
-                        <p className="nameStyle">Mridul Khurana </p>
-                    </div>
-                    {this.state.windowWidth < 887 ?  this.renderMobile() : this.renderWebsite() }
-                    {console.log(this.state.windowWidth)}
+
+                    {this.state.windowWidth < 887 ? this.renderMobile() : this.renderWebsite()}
+                    {/* {console.log(this.state.windowWidth)} */}
                 </div>
             </div>
         )

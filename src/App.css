@@ -7,7 +7,7 @@ position: absolute;
 } */
 .icon-bar {
   position: fixed;
-  top: 70%;
+  top:50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -21,13 +21,20 @@ position: absolute;
   color: #0d0d0d;
   font-size: 20px;
 }
+@font-face {
+  font-family: myFirstFont;
+  src: url(./ComicSansMS3.ttf);
+  font-weight: bold;
+}
 body{
   
-  background: url("./imgImp.jpg");
+  background: url("./imgImp2.jpg");
   background-position:top;
   background-size: cover;
   width: 100%;
   height:800px;
+  font-family: myFirstFont;
+  /* font-family: "Comic Sans MS", cursive, sans-serif; */
   /* background-attachment: fixed; */
 }
 /* body{
@@ -68,6 +75,4 @@ a:hover {
   background: white;
   border-bottom-right-radius: 10px;
 }
-.content {
-  margin-left: 55px;
-}
+

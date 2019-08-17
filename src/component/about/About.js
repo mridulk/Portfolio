@@ -227,7 +227,7 @@ class About extends Component {
         return (
             <div className="text-center outerDiv">
 
-                <div className="col-lg-11 col-11 pt-5">
+                <div className="col-lg-11 col-12 pt-5">
                     <h1 style={{ color: 'white' }}>About</h1>
                     <div className="container  containerAbout  ml-1 mt-5 mb-5">
                         <div className="col-12">

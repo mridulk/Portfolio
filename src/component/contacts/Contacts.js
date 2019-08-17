@@ -6,7 +6,7 @@ class Contacts extends Component {
            <div className="text-center">
                 
                 <div className="col-lg-11 col-10 pt-5">
-                    <h1>Contacts</h1>
+                    <h1 style={{color:'white'}}>Contacts</h1>
                 </div>
             </div>
         )

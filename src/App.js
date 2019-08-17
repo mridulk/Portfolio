@@ -19,7 +19,7 @@ class App extends Component {
           <a href="#" className="linkedin"><i className="fa fa-linkedin"></i></a>
           <a href="https://github.com/mridulk" className="github"><i className="fa fa-github"></i></a>
         </div>
-        <div className="content">
+        <div className="content " style={{marginLeft:'50px'}}>
           <Switch>
           <Route path="/" exact component={Home}/>
           <Route path="/about" component={About}/>

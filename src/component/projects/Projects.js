@@ -15,7 +15,7 @@ class Projects extends Component {
         this.renderModal = this.renderModal.bind(this)
     }
     componentDidMount() {
-        console.log(this.state.height, this.state.width)
+        // console.log(this.state.height, this.state.width)
         window.addEventListener("resize", this.updateSize)
     }
     componentWillUnmount(){
@@ -169,7 +169,7 @@ class Projects extends Component {
         return (
             <div className="text-center">
 
-                <div className="col-lg-11 col-10 pt-5">
+                <div className="col-lg-11 col-11 pt-5">
                     <h1 style={{color:'white'}}>Projects</h1>
                     {/* <h1 className="bg-white"> {this.state.width}</h1> */}
                     {this.state.width < 887 ? this.renderMobile() : this.renderWebsite()}
